@@ -1,3 +1,21 @@
+# [0.78.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.3...v0.78.0) (2022-10-21)
+
+
+### Features
+
+* keyboard shortcut for seachbox ([#1971](https://github.com/EddieHubCommunity/LinkFree/issues/1971)) ([2eda13a](https://github.com/EddieHubCommunity/LinkFree/commit/2eda13afdaf61aad5e1884b193a8f73bb5c57465))
+
+
+
+## [0.77.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.2...v0.77.3) (2022-10-12)
+
+
+### Bug Fixes
+
+* confusing line in README ([#1871](https://github.com/EddieHubCommunity/LinkFree/issues/1871)) ([72b0ab3](https://github.com/EddieHubCommunity/LinkFree/commit/72b0ab36d1d1c2ac54155764feba022e3c8670f7))
+
+
+
 ## [0.77.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.1...v0.77.2) (2022-10-10)
 
 
@@ -22,24 +40,6 @@
 ### Features
 
 * Implement the Dark/Light-Mode feature ([#1852](https://github.com/EddieHubCommunity/LinkFree/issues/1852)) ([7e718cc](https://github.com/EddieHubCommunity/LinkFree/commit/7e718ccf0858b6f9ea434cf7b1b38e9a9bc67b92))
-
-
-
-## [0.76.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.8...v0.76.9) (2022-10-08)
-
-
-### Bug Fixes
-
-* only publish container ([#1924](https://github.com/EddieHubCommunity/LinkFree/issues/1924)) ([df31fc7](https://github.com/EddieHubCommunity/LinkFree/commit/df31fc707a8d7d990d4a02e695b7ec8e907e3555))
-
-
-
-## [0.76.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.7...v0.76.8) (2022-10-08)
-
-
-### Bug Fixes
-
-* GitHub award ([#1923](https://github.com/EddieHubCommunity/LinkFree/issues/1923)) ([44bc07e](https://github.com/EddieHubCommunity/LinkFree/commit/44bc07e62a74f1b0c6a177bc640820c9ff191595))
 
 
 
