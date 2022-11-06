@@ -1,45 +1,45 @@
-# [0.78.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.3...v0.78.0) (2022-10-21)
-
-
-### Features
-
-* keyboard shortcut for seachbox ([#1971](https://github.com/EddieHubCommunity/LinkFree/issues/1971)) ([2eda13a](https://github.com/EddieHubCommunity/LinkFree/commit/2eda13afdaf61aad5e1884b193a8f73bb5c57465))
-
-
-
-## [0.77.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.2...v0.77.3) (2022-10-12)
+## [1.1.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.5...v1.1.6) (2022-11-05)
 
 
 ### Bug Fixes
 
-* confusing line in README ([#1871](https://github.com/EddieHubCommunity/LinkFree/issues/1871)) ([72b0ab3](https://github.com/EddieHubCommunity/LinkFree/commit/72b0ab36d1d1c2ac54155764feba022e3c8670f7))
+* eddiejaoude profile markdown ([ed8df4f](https://github.com/EddieHubCommunity/LinkFree/commit/ed8df4f40579db35961496d412b4fc212e784b66))
 
 
 
-## [0.77.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.1...v0.77.2) (2022-10-10)
-
-
-### Bug Fixes
-
-* border-radius for milestones & images ([#1867](https://github.com/EddieHubCommunity/LinkFree/issues/1867)) ([e90ac72](https://github.com/EddieHubCommunity/LinkFree/commit/e90ac72d213c95d1758bd7fca72dd4dacf02d097))
-
-
-
-## [0.77.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.0...v0.77.1) (2022-10-09)
+## [1.1.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.4...v1.1.5) (2022-11-05)
 
 
 ### Bug Fixes
 
-* Shareicons color changing fix in build (purgecss) ([#1917](https://github.com/EddieHubCommunity/LinkFree/issues/1917)) ([84de04a](https://github.com/EddieHubCommunity/LinkFree/commit/84de04a97fa7663b2349d3bd52fbff36b1b6bf63))
+* path for data files ([#2137](https://github.com/EddieHubCommunity/LinkFree/issues/2137)) ([6b32e7f](https://github.com/EddieHubCommunity/LinkFree/commit/6b32e7fa11fa0a5de8d3943871d1fabfe02521a2))
 
 
 
-# [0.77.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.9...v0.77.0) (2022-10-08)
+## [1.1.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.3...v1.1.4) (2022-11-05)
 
 
-### Features
+### Bug Fixes
 
-* Implement the Dark/Light-Mode feature ([#1852](https://github.com/EddieHubCommunity/LinkFree/issues/1852)) ([7e718cc](https://github.com/EddieHubCommunity/LinkFree/commit/7e718ccf0858b6f9ea434cf7b1b38e9a9bc67b92))
+* remove v2 lables ([#2136](https://github.com/EddieHubCommunity/LinkFree/issues/2136)) ([c57df80](https://github.com/EddieHubCommunity/LinkFree/commit/c57df807607c593be71947fa857f9e636bc904a5))
+
+
+
+## [1.1.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.2...v1.1.3) (2022-11-05)
+
+
+### Bug Fixes
+
+* formatting data file ([fd7abd8](https://github.com/EddieHubCommunity/LinkFree/commit/fd7abd813145eaa657c967c54c4f1accd42718a9))
+
+
+
+## [1.1.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.1...v1.1.2) (2022-11-05)
+
+
+### Bug Fixes
+
+* CBID2 milestones section ([#2123](https://github.com/EddieHubCommunity/LinkFree/issues/2123)) ([2732207](https://github.com/EddieHubCommunity/LinkFree/commit/2732207b128e02d2f61b01f01320c51c45398bcd))
 
 
 
