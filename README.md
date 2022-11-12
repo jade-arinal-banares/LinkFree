@@ -95,9 +95,9 @@ Create a file named using your GitHub username `username.json` in the directory 
 **Optional fields: `milestones` and `type(personal | community)`**\
 Looking for inspiration? You can view the following profiles for an example:
 
-- [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/eddiejaoude.json)
-- [Naomi Carrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/nhcarrigan.json)
-- [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
+- [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
+- [Naomi Carrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/nhcarrigan.json)
+- [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/kaiwalyakoparkar.json)
 
 Your brand new file should look something similar to this one:
 
@@ -110,6 +110,11 @@ Your brand new file should look something similar to this one:
   "type": "personal",
   "bio": "Open Source Enthusiast!",
   "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
+  "tags": ["javascript", "typescript"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
+    { "platform": "github", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",

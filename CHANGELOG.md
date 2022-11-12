@@ -1,45 +1,50 @@
-## [1.1.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.5...v1.1.6) (2022-11-05)
+## [1.7.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.0...v1.7.1) (2022-11-12)
 
 
 ### Bug Fixes
 
-* eddiejaoude profile markdown ([ed8df4f](https://github.com/EddieHubCommunity/LinkFree/commit/ed8df4f40579db35961496d412b4fc212e784b66))
+* profile tags wrapping ([#2212](https://github.com/EddieHubCommunity/LinkFree/issues/2212)) ([3b36b60](https://github.com/EddieHubCommunity/LinkFree/commit/3b36b6085a1cf7c15c311d07cf51d2eb89b0bbff))
 
 
 
-## [1.1.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.4...v1.1.5) (2022-11-05)
-
-
-### Bug Fixes
-
-* path for data files ([#2137](https://github.com/EddieHubCommunity/LinkFree/issues/2137)) ([6b32e7f](https://github.com/EddieHubCommunity/LinkFree/commit/6b32e7fa11fa0a5de8d3943871d1fabfe02521a2))
-
-
-
-## [1.1.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.3...v1.1.4) (2022-11-05)
+# [1.7.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.9...v1.7.0) (2022-11-11)
 
 
 ### Bug Fixes
 
-* remove v2 lables ([#2136](https://github.com/EddieHubCommunity/LinkFree/issues/2136)) ([c57df80](https://github.com/EddieHubCommunity/LinkFree/commit/c57df807607c593be71947fa857f9e636bc904a5))
+* eddiejaoude profile data ([c6e8e46](https://github.com/EddieHubCommunity/LinkFree/commit/c6e8e465c9fa6ae62ea1a406733904f86c2d68e0))
+
+
+### Features
+
+* refactor alerts ([c447adc](https://github.com/EddieHubCommunity/LinkFree/commit/c447adc99183f19fcb137ba638759ed7aad06a1a))
 
 
 
-## [1.1.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.2...v1.1.3) (2022-11-05)
-
-
-### Bug Fixes
-
-* formatting data file ([fd7abd8](https://github.com/EddieHubCommunity/LinkFree/commit/fd7abd813145eaa657c967c54c4f1accd42718a9))
-
-
-
-## [1.1.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.1...v1.1.2) (2022-11-05)
+## [1.6.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.8...v1.6.9) (2022-11-11)
 
 
 ### Bug Fixes
 
-* CBID2 milestones section ([#2123](https://github.com/EddieHubCommunity/LinkFree/issues/2123)) ([2732207](https://github.com/EddieHubCommunity/LinkFree/commit/2732207b128e02d2f61b01f01320c51c45398bcd))
+* react class name ([0b57f85](https://github.com/EddieHubCommunity/LinkFree/commit/0b57f85b932f295d1a40f725ae5363cf1064360b))
+
+
+
+## [1.6.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.7...v1.6.8) (2022-11-11)
+
+
+### Bug Fixes
+
+* profile views ([7a24be6](https://github.com/EddieHubCommunity/LinkFree/commit/7a24be68a32b9d4fa6fb937f0f79fcb618f37ffd))
+
+
+
+## [1.6.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.6...v1.6.7) (2022-11-11)
+
+
+### Bug Fixes
+
+* profile social buttons [#2202](https://github.com/EddieHubCommunity/LinkFree/issues/2202) ([5119032](https://github.com/EddieHubCommunity/LinkFree/commit/5119032213933e16d62f5f292562a087bb6f26f6))
 
 
 

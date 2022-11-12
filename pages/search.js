@@ -1,8 +1,10 @@
 import Head from "next/head";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
-import UserPreview from "../components/user/UserPreview";
 import app from "../config/app.json";
+import UserPreview from "../components/user/UserPreview";
+import Alert from "../components/Alert";
 
 export async function getServerSideProps(context) {
   let users = [];
@@ -19,16 +21,46 @@ export async function getServerSideProps(context) {
 }
 
 export default function Search({ users }) {
+  const router = useRouter();
+  const { username } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
+  const [notFound, setNotFound] = useState();
+  const [threeOrMore, setThreeOrMore] = useState();
+
+  let results = [];
+
+  useEffect(() => {
+    if (username) {
+      setNotFound(username);
+      setThreeOrMore(false);
+    }
+  }, []);
+
   const filterData = (value) => {
-    setFilteredUsers(
-      value.length >= 3
-        ? users.filter((user) =>
-            user.name.toLowerCase().includes(value.toLowerCase())
-          )
-        : []
-    );
+    if (value.length <= 3) {
+      setThreeOrMore(false);
+      setFilteredUsers(results);
+      setNotFound();
+    }
+
+    if (value.length >= 3) {
+      setThreeOrMore(true);
+      results = users.filter((user) =>
+        user.name.toLowerCase().includes(value.toLowerCase())
+      );
+
+      if (!results.length) {
+        setNotFound(value);
+      }
+
+      if (results.length) {
+        setNotFound();
+      }
+
+      setFilteredUsers(results);
+    }
   };
+
   return (
     <>
       <Head>
@@ -40,10 +72,17 @@ export default function Search({ users }) {
         <h1 className="text-4xl mb-4  font-bold">Search</h1>
         <input
           placeholder="Search users"
-          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2"
+          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
           name="keyword"
           onChange={(e) => filterData(e.target.value)}
         />
+        {notFound && <Alert type="error" message={`${notFound} not found`} />}
+        {!threeOrMore && (
+          <Alert
+            type="info"
+            message="You have to enter at least 3 characters to search for a user."
+          />
+        )}
         <ul>
           {filteredUsers.map((user) => (
             <li key={user.username}>
